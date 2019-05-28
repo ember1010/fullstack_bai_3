@@ -1,0 +1,49 @@
+div{
+	box-sizing: border-box;
+	margin:3px;
+}
+p,h1{
+	margin: 15px;
+	text-align: center;
+}
+
+#side-bar{
+	float: left;
+	width:200px;
+	height: 600px;
+	border: 1px solid black;
+}
+#content{
+	float: right;
+	width: calc(100% - 212px);
+	background: yellow;
+	border: 1px solid black;
+}
+#total-layout{
+	background-color: grey;
+}
+.clearfix:after{
+	content:'';
+	width:100%;
+	display:block;
+	clear:both;
+}
+#content-a{
+	background-color: lightgreen;
+	border: 1px solid black;
+}
+#content-a1{
+	float: left;
+	width: calc(50% - 6px);
+	border: 1px solid black;
+}
+#content-a2{
+	float: right;
+	width: calc(50% - 6px);
+	border: 1px solid black;
+}
+#content-b{
+
+
+	border: 1px solid black;
+}
